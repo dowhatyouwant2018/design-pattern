@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.michael</groupId>
+		<artifactId>tao-shopping</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>tao-common</artifactId>
+	<!--<packaging>pom</packaging>-->
+	<packaging>war</packaging>
+	<description>product service</description>
+
+	<dependencies>
+		<!--<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>-->
+		<!-- 引入velocity的依赖包-->
+		<!-- spring boot 1.5.x（Spring4.3 ） 默认不再支持，需要手动将spring boot 依赖版本下降到1.4.x左右 测试 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-velocity</artifactId>
+			<version>1.3.6.RELEASE</version>
+		</dependency>
+
+	</dependencies>
+
+
+</project>
