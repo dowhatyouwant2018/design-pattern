@@ -16,6 +16,9 @@
         <module>tao-product</module>
         <module>tao-order</module>
         <module>tao-warehouse</module>
+        <module>tao-message</module>
+        <module>tao-monitor</module>
+        <module>tao-logcenter</module>
         <module>tao-common</module>
     </modules>
 

@@ -6,10 +6,9 @@
         <artifactId>tao-shopping</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>tao-product</artifactId>
-    <!--<packaging>pom</packaging>-->
-    <packaging>war</packaging>
-    <description>product service</description>
+    <artifactId>tao-logcenter</artifactId>
+    <packaging>pom</packaging>
+    <description>logcenter service</description>
 
     <dependencies>
         <dependency>
